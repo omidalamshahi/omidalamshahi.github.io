@@ -103,7 +103,7 @@ const BookLayout = () => {
                     classes['content-image'],
                     classes['image-first']
                   )}
-                  style={{ height: '85%', borderRadius: '10px' }}
+                  style={{ height: '100%', borderRadius: '10px' }}
                 />
               </div>
               <div
@@ -122,7 +122,7 @@ const BookLayout = () => {
                     classes['image-second']
                   )}
                   style={{
-                    height: '85%',
+                    height: '100%',
                     borderRadius: '10px',
                   }}
                 />
