@@ -1,0 +1,21 @@
+body {
+  background-color: #1f1f1f;
+  background-color: #f8f8f8;
+}
+
+@keyframes turn-left {
+  from {
+    transform: translateY(110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes turn-right {
+  from {
+    transform: translateY(110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
