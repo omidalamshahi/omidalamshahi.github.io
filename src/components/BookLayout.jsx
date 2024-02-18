@@ -54,6 +54,7 @@ const BookLayout = () => {
           width: '25vw',
           // height: '50vh',
           aspectRatio: '1/1.41',
+          aspectRatio: '1/1.28',
 
           position: 'relative',
           transform: 'translate(50%, 0%) ',
@@ -103,7 +104,7 @@ const BookLayout = () => {
                     classes['content-image'],
                     classes['image-first']
                   )}
-                  style={{ height: '100%', borderRadius: '10px' }}
+                  style={{ width: '100%', borderRadius: '10px' }}
                 />
               </div>
               <div
@@ -122,7 +123,7 @@ const BookLayout = () => {
                     classes['image-second']
                   )}
                   style={{
-                    height: '100%',
+                    width: '100%',
                     borderRadius: '10px',
                   }}
                 />
